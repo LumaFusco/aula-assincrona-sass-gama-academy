@@ -1,0 +1,20 @@
+$vermelho: rgb(255, 0, 98);
+$branco: white;
+$cinza: grey;
+
+.container{
+background-color: $vermelho;
+}
+
+h1{
+color:$branco
+}
+
+ul.minha-lista{
+list-style-type: none;
+background-color: $cinza;
+    li{
+        margin:0;
+        padding:0;
+    }
+}
